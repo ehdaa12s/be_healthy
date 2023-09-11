@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "467199894720",
+    "project_id": "be-healthy-661d0",
+    "storage_bucket": "be-healthy-661d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467199894720:android:f0d088c66e1e8aaec5f925",
+        "android_client_info": {
+          "package_name": "com.example.Be_Healthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467199894720-1u7abn7crvop2t2t173aapicgc5e0o2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Be_Healthy",
+            "certificate_hash": "87bc181a6f6dabb0a9a3bcbfd50dc52f101c5335"
+          }
+        },
+        {
+          "client_id": "467199894720-eo9145bmvhqek8025ndmc9dlh1oq0gqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmOToI7My5Oy6b1Dmx-R-uk3QbKcx4qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467199894720-eo9145bmvhqek8025ndmc9dlh1oq0gqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
