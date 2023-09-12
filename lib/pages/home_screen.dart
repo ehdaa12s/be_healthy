@@ -21,11 +21,11 @@ class _BottomNavagertorBarScreenState extends State<BottomNavagertorBarScreen> {
 
   int pageindex = 0;
   final List<Widget> _screens = [
-    const SettingScreen(),
-    const EmergencyScreen(),
-    const HomeScreen(),
-    ChatScreen(),
     const AdvicesScreen(),
+    ChatScreen(),
+    const HomeScreen(),
+    const EmergencyScreen(),
+    const SettingScreen(),
   ];
 
   @override
@@ -37,11 +37,11 @@ class _BottomNavagertorBarScreenState extends State<BottomNavagertorBarScreen> {
           index: pageindex,
           height: 50.0,
           items: const <Widget>[
-            Icon(Icons.settings, size: 30, color: Colors.white),
-            Icon(Icons.emergency, size: 30, color: Colors.white),
-            Icon(Icons.home, size: 30, color: Colors.white),
-            Icon(Icons.message, size: 30, color: Colors.white),
             Icon(Icons.format_align_justify, size: 30, color: Colors.white),
+            Icon(Icons.message, size: 30, color: Colors.white),
+            Icon(Icons.home, size: 30, color: Colors.white),
+            Icon(Icons.emergency, size: 30, color: Colors.white),
+            Icon(Icons.settings, size: 30, color: Colors.white),
           ],
           color: kprimaryColor,
           buttonBackgroundColor: kprimaryColor,
@@ -52,7 +52,6 @@ class _BottomNavagertorBarScreenState extends State<BottomNavagertorBarScreen> {
             setState(() {
               pageindex = index;
             });
-
 
             (index) => true;
           }),

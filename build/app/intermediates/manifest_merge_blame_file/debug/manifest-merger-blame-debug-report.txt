@@ -87,25 +87,25 @@
 69            android:value="2" />
 70
 71        <service
-71-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+71-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 72            android:name="com.google.firebase.components.ComponentDiscoveryService"
-72-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+72-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
 73            android:directBootAware="true"
 73-->[com.google.firebase:firebase-common:20.3.3] /Users/ehdaaabdallah/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
 74            android:exported="false" >
 74-->[com.google.firebase:firebase-auth:22.1.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/d3ae53fd46c37c4094db2bb5dc1388b9/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
 75            <meta-data
-75-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-76-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+75-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+76-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
 77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+77-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 78            <meta-data
-78-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-79-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+78-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+79-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+80-->[:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 81            <meta-data
 81-->[:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"

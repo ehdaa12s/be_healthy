@@ -37,6 +37,7 @@ class MyApp extends StatelessWidget {
         'SignUp': (context) => const SignUp(),
         'BottomNavagetorBarScreen': (context) => const BottomNavagertorBarScreen(),
         'ChatScreen': (context) => ChatScreen(),
+
       },
       theme: Provider.of<AppTheme>(context).getThemeData(),
       initialRoute: 'Loginscreen',
