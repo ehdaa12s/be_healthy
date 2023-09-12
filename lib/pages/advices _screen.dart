@@ -1,4 +1,4 @@
-import 'package:_BeHealthey/constant/constant.dart';
+import 'package:be_healthy/constant/constant.dart';
 import 'package:flutter/material.dart';
 
 class AdvicesScreen extends StatefulWidget {
@@ -31,8 +31,6 @@ class _AdvicesScreenState extends State<AdvicesScreen> {
               tabs: [
                 Tab(
                   text: 'مرضي السكري',
-
-
                 ),
                 Tab(
                   text: 'مرضي الحساسية',

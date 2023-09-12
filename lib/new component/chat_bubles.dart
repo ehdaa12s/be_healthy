@@ -1,5 +1,5 @@
-import 'package:_BeHealthey/Chat_pages/message.dart';
-import 'package:_BeHealthey/constant/constant.dart';
+import 'package:be_healthy/chat_pages/message.dart';
+import 'package:be_healthy/constant/constant.dart';
 import 'package:flutter/material.dart';
 
 class ChatBubble extends StatelessWidget {

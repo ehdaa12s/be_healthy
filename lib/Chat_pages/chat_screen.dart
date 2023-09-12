@@ -1,6 +1,6 @@
-import 'package:_BeHealthey/Chat_pages/message.dart';
-import 'package:_BeHealthey/constant/constant.dart';
-import 'package:_BeHealthey/new%20component/chat_bubles.dart';
+import 'package:be_healthy/chat_pages/message.dart';
+import 'package:be_healthy/constant/constant.dart';
+import 'package:be_healthy/new%20component/chat_bubles.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -27,11 +27,18 @@ class _ChatScreenState extends State<ChatScreen> {
     return StreamBuilder<QuerySnapshot>(
         stream: messages.orderBy(kcreatedAt, descending: true).snapshots(),
         builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            const Text('No data avaible right now');
+          } else if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
           if (snapshot.hasData) {
             List<Messages> messageslist = [];
             for (int i = 0; i < snapshot.data!.docs.length; i++) {
               messageslist.add(Messages.fromJson(snapshot.data!.docs[i]));
             }
+
             return Scaffold(
               appBar: AppBar(
                 backgroundColor: kprimaryColor,

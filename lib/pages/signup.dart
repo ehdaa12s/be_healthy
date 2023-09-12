@@ -1,6 +1,6 @@
-import 'package:_BeHealthey/constant/constant.dart';
-import 'package:_BeHealthey/new%20component/custom_button.dart';
-import 'package:_BeHealthey/new%20component/custom_text_field.dart';
+import 'package:be_healthy/constant/constant.dart';
+import 'package:be_healthy/new%20component/custom_button.dart';
+import 'package:be_healthy/new%20component/custom_text_field.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -92,11 +92,10 @@ class _SignUpState extends State<SignUp> {
                               .createUserWithEmailAndPassword(
                                   email: email!, password: password!);
                           if (userCredential.user != null) {
-                             Navigator.pushNamed(
+                            Navigator.pushNamed(
                                 context, 'BottomNavagetorBarScreen',
                                 arguments: email);
                           }
-
                         } on FirebaseAuthException catch (e) {
                           if (e.code == 'weak-password') {
                             ScaffoldMessenger.of(context).showSnackBar(
@@ -106,13 +105,10 @@ class _SignUpState extends State<SignUp> {
                               ),
                             );
                           } else if (e.code == 'email-already-in-use') {
-
-
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(
                                 content: Text(
                                     'The account already exists for that email.'),
-
                               ),
                             );
                           }

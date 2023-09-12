@@ -1,6 +1,7 @@
-import 'package:_BeHealthey/constant/constant.dart';
-import 'package:_BeHealthey/new%20component/app_theme.dart';
-import 'package:_BeHealthey/pages/login_screen.dart';
+
+import 'package:be_healthy/constant/constant.dart';
+import 'package:be_healthy/new%20component/app_theme.dart';
+import 'package:be_healthy/pages/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

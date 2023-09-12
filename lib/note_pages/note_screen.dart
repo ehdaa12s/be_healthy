@@ -1,6 +1,6 @@
-import 'package:_BeHealthey/constant/constant.dart';
-import 'package:_BeHealthey/new%20component/database_helper.dart';
-import 'package:_BeHealthey/note_pages/note.dart';
+import 'package:be_healthy/constant/constant.dart';
+import 'package:be_healthy/new%20component/database_helper.dart';
+import 'package:be_healthy/note_pages/note.dart';
 import 'package:flutter/material.dart';
 
 class NoteScreen extends StatefulWidget {

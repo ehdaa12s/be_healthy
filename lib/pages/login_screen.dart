@@ -1,7 +1,6 @@
-import 'package:_BeHealthey/constant/constant.dart';
-import 'package:_BeHealthey/new%20component/custom_button.dart';
-
-import 'package:_BeHealthey/new%20component/custom_text_field.dart';
+import 'package:be_healthy/constant/constant.dart';
+import 'package:be_healthy/new%20component/custom_button.dart';
+import 'package:be_healthy/new%20component/custom_text_field.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +16,6 @@ class _LoginScreenState extends State<LoginScreen> {
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
   String? email;
   String? password;
-
 
   @override
   Widget build(BuildContext context) {
@@ -89,8 +87,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             email: email!,
                             password: password!,
                           );
-                          Navigator.pushNamed(context, 'BottomNavagetorBarScreen');
-
+                          Navigator.pushNamed(
+                              context, 'BottomNavagetorBarScreen');
                         } on FirebaseAuthException catch (e) {
                           if (e.code == 'user-not-found') {
                             ScaffoldMessenger.of(context).showSnackBar(

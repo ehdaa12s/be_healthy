@@ -1,7 +1,6 @@
-import 'package:_BeHealthey/note_pages/note.dart';
+import 'package:be_healthy/note_pages/note.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-
 
 class DatabaseHelper {
   static final DatabaseHelper instance = DatabaseHelper._();

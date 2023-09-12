@@ -1,4 +1,4 @@
-import 'package:_BeHealthey/constant/constant.dart';
+import 'package:be_healthy/constant/constant.dart';
 
 class Messages {
   final String text;
