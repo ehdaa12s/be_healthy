@@ -46,7 +46,6 @@ class _SignUpState extends State<SignUp> {
                     style: TextStyle(
                       fontSize: 32,
                       color: Colors.white,
-                      fontFamily: 'pacifio',
                     ),
                   ),
                   const SizedBox(
@@ -54,7 +53,7 @@ class _SignUpState extends State<SignUp> {
                   ),
                   const Text(
                     "Sign Up ",
-                    textAlign: TextAlign.start,
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 32,
                       color: Colors.white,

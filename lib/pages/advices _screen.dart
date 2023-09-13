@@ -30,13 +30,34 @@ class _AdvicesScreenState extends State<AdvicesScreen> {
               labelColor: Colors.white,
               tabs: [
                 Tab(
-                  text: 'مرضي السكري',
+                  height: 50,
+                  child: Text(
+                    'مرضي السكري',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
                 Tab(
-                  text: 'مرضي الحساسية',
-                ),
+                    child: Text(
+                  'مرضي الربو',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                )),
                 Tab(
-                  text: 'مرضي القلب',
+                  child: Text(
+                    'مرضي القلب ',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -68,10 +89,9 @@ class _AdvicesScreenState extends State<AdvicesScreen> {
                           height: 16.0,
                         ),
 
-                        //  Image(
-                        //  image:
-                        //  AssetImage('assets/images/20210621110646646.jpg'),
-                        //   ),
+                        // Image(image:
+                        // AssetImage('assets/images/20210621110646646.jpg'),
+                        //  ),
 
                         // TextViewerPage(textViewer: TextViewer('')),
                         Text(
