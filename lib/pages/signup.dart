@@ -142,6 +142,8 @@ class _SignUpState extends State<SignUp> {
                       ),
                       GestureDetector(
                         onTap: () {
+
+
                           Navigator.pop(context);
                         },
                         child: Text(

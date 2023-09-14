@@ -74,6 +74,8 @@ dependencies {
 
     implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
     implementation platform('com.google.firebase:firebase-bom:30.4.1')
+    implementation("com.google.firebase:firebase-appcheck-playintegrity")
+    implementation("com.google.firebase:firebase-appcheck-ktx")
 
 
     //implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
