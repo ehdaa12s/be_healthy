@@ -62,6 +62,8 @@ dependencies:
   flutter_lints: ^2.0.0
   path:
   sqflite:
+  url_launcher:
+
 
  
 
