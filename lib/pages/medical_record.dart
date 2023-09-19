@@ -1,4 +1,5 @@
 import 'package:be_healthy/constant/constant.dart';
+import 'package:be_healthy/new%20component/add_medical_record.dart';
 import 'package:flutter/material.dart';
 
 class MedicalRecord extends StatelessWidget {
@@ -13,17 +14,23 @@ class MedicalRecord extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Container(
-            margin: const EdgeInsets.all(10),
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: kprimaryColor,
-              borderRadius: BorderRadius.circular(20),
-            ),
-            child: const Column(
-              children: [],
-            ),
+          ListTile(
+            leading: const Icon(Icons.add),
+            title: const Text('اضافة سجل طبي'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AddMedicalRecord(),
+                ),
+              );
+            },
           ),
+
+
+
+
+
         ],
       ),
     );
