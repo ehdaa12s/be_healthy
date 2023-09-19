@@ -32,11 +32,15 @@ class _LoginScreenState extends State<LoginScreen> {
                   const SizedBox(
                     height: 30,
                   ),
-                  const Image(
-                    image: AssetImage('assets/images/scholar.png'),
-                    height: 100,
+                  const CircleAvatar(
+                    backgroundImage:  const AssetImage('assets/images/logo.jpeg',
+                    ),
+                    radius: 120,
                   ),
-                  const Text(
+                  const  SizedBox(
+                    height: 30,
+                  ),
+                 /* const Text(
                     "Be Healthy",
                     textAlign: TextAlign.center,
                     style: TextStyle(
@@ -44,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       color: Colors.white,
                       fontFamily: 'pacifio',
                     ),
-                  ),
+                  ),*/
                   const SizedBox(
                     height: 30,
                   ),

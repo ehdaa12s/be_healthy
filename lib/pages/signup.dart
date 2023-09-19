@@ -1,6 +1,7 @@
 import 'package:be_healthy/constant/constant.dart';
 import 'package:be_healthy/new%20component/custom_button.dart';
 import 'package:be_healthy/new%20component/custom_text_field.dart';
+import 'package:be_healthy/pages/login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -34,20 +35,22 @@ class _SignUpState extends State<SignUp> {
                   const SizedBox(
                     height: 30,
                   ),
-                  const Image(
-                    image: AssetImage(
-                      'assets/images/scholar.png',
+                   const CircleAvatar(
+                    backgroundImage:  const AssetImage('assets/images/logo.jpeg',
                     ),
-                    height: 100,
+                     radius: 120,
                   ),
-                  const Text(
+                 const  SizedBox(
+                    height: 30,
+                  ),
+                  /*const Text(
                     "Be Healthy",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 32,
                       color: Colors.white,
                     ),
-                  ),
+                  ),*/
                   const SizedBox(
                     height: 30,
                   ),
@@ -104,6 +107,9 @@ class _SignUpState extends State<SignUp> {
                               ),
                             );
                           } else if (e.code == 'email-already-in-use') {
+
+
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>const LoginScreen()));
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(
                                 content: Text(
