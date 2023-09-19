@@ -59,7 +59,6 @@ class CustomListTitle extends StatelessWidget {
                   onPressed: () {
                     dialNumber(
                       phoneNumber: doctorPhoneNumber,
-
                     );
                   },
                   child: const Text('نعم'),

@@ -17,21 +17,39 @@ class CustomTextField extends StatelessWidget {
         }
       },
       onChanged: onChanged,
-      decoration: const InputDecoration(
-        hintText: '',
-        hintStyle: TextStyle(
+      decoration: InputDecoration(
+        hintText: hintText,
+        hintStyle: const TextStyle(
           color: Colors.white,
         ),
+        // filled: true,
+        //   fillColor: Colors.white.withOpacity(0.3),
         enabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(
+          borderRadius: BorderRadius.circular(20),
+          borderSide: const BorderSide(
+            color: Colors.white,
+          ),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(20),
+          borderSide: const BorderSide(
             color: Colors.white,
           ),
         ),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.all(Radius.circular(30)),
-          borderSide: BorderSide(
+          borderRadius: BorderRadius.circular(20),
+          borderSide: const BorderSide(
             color: Colors.white,
           ),
+        ),
+        errorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(20),
+          borderSide: const BorderSide(
+            color: Color(0xffF46786),
+          ),
+        ),
+        errorStyle: const TextStyle(
+          color: Color(0xffF46786),
         ),
       ),
     );
