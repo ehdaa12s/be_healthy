@@ -7,9 +7,11 @@ import 'package:be_healthy/pages/setting_screen.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
-class BottomNavagertorBarScreen extends StatefulWidget {
-  const BottomNavagertorBarScreen({Key? key}) : super(key: key);
+
+class  BottomNavagertorBarScreen extends StatefulWidget {
+ const  BottomNavagertorBarScreen({Key? key}) : super(key: key);
   static String id = "BottomNavagetorBarScreen";
+ // final email = ModalRoute.of(context as BuildContext)!.settings.arguments;
 
   @override
   State<BottomNavagertorBarScreen> createState() =>

@@ -1,8 +1,12 @@
+import 'dart:io';
+
 import 'package:be_healthy/chat_pages/message.dart';
 import 'package:be_healthy/constant/constant.dart';
 import 'package:be_healthy/new%20component/chat_bubles.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 class ChatScreen extends StatefulWidget {
   ChatScreen({
@@ -24,6 +28,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     var email = ModalRoute.of(context)!.settings.arguments;
+
     return StreamBuilder<QuerySnapshot>(
         stream: messages.orderBy(kcreatedAt, descending: true).snapshots(),
         builder: (context, snapshot) {
@@ -75,7 +80,8 @@ class _ChatScreenState extends State<ChatScreen> {
                               color: kprimaryColor,
                             ),
                             onPressed: () {
-                              //add image from gallery
+                              addImage();
+                              uploadFile();
                             }),
 
                         Expanded(
@@ -105,7 +111,20 @@ class _ChatScreenState extends State<ChatScreen> {
                               Icons.send,
                               color: kprimaryColor,
                             ),
-                            onPressed: () {}),
+                            onPressed: () {
+                              messages.add({
+                                kmessagesText: messageController.text,
+                                kcreatedAt: DateTime.now(),
+                                kemail: email,
+                              });
+                              messageController.clear();
+
+                              widget._controller.animateTo(
+                                widget._controller.position.minScrollExtent,
+                                duration: const Duration(milliseconds: 300),
+                                curve: Curves.easeOut,
+                              );
+                            }),
                       ],
                     ),
                   ),
@@ -118,5 +137,30 @@ class _ChatScreenState extends State<ChatScreen> {
             );
           }
         });
+  }
+
+  // function to add image from gallery to firebase storage
+  File? _image;
+  final picker = ImagePicker();
+  final ref = FirebaseStorage.instance.ref().child('uploads');
+
+  Future addImage() async {
+    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+    setState(() {
+      if (pickedFile != null) {
+        _image = File(pickedFile.path);
+      } else {
+        const Text('No image selected.');
+      }
+    });
+  }
+
+  Future uploadFile() async {
+    UploadTask uploadTask =
+        ref.child('images/${_image!.path}').putFile(_image!);
+    uploadTask.whenComplete(() async {
+      await ref.getDownloadURL().then((value) {
+      });
+    });
   }
 }

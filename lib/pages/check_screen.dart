@@ -22,42 +22,50 @@ class _CheckScreenState extends State<CheckScreen> {
           children: const [
             CustomListTitle(
               doctorName: 'Dr/ Ahmed',
-              doctorPhoneNumber: '01005678998',
+              doctorPhoneNumber: '01002987249',
+              timeAvailable:  'متاح من 9 صباحا الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmfcbJXhnYd9S9rD-zMNDxUrsqsmMvQJTmA&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr / Mohamed kamal',
-              doctorPhoneNumber: '01235356677',
+              doctorPhoneNumber: '01012503666',
+              timeAvailable: 'متاح من 9 صباحا الي 2 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmfcbJXhnYd9S9rD-zMNDxUrsqsmMvQJTmA&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr / marwa mohamed',
               doctorPhoneNumber: '01123456789',
+              timeAvailable: 'متاح من 12 ظهرا  الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKERn-lpNg8Hxjf3ftsj_zpGwK8ruBp5y9g&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr / mohamed ali',
               doctorPhoneNumber: '01005678998',
+              timeAvailable: 'متاح من 9 صباحا الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmfcbJXhnYd9S9rD-zMNDxUrsqsmMvQJTmA&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr / Ahmed ali',
               doctorPhoneNumber: '01005678998',
+              timeAvailable: 'متاح من 9 صباحا الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmfcbJXhnYd9S9rD-zMNDxUrsqsmMvQJTmA&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr / Samir moha',
               doctorPhoneNumber: '01005678998',
+              timeAvailable: 'متاح من 9 صباحا الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKERn-lpNg8Hxjf3ftsj_zpGwK8ruBp5y9g&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr /  ali Ahmed',
               doctorPhoneNumber: '01005678998',
+              timeAvailable: 'متاح من 9 صباحا الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmfcbJXhnYd9S9rD-zMNDxUrsqsmMvQJTmA&usqp=CAU',
             ),
             CustomListTitle(
               doctorName: 'Dr / Amaira Abdullah',
               doctorPhoneNumber: '01005678998',
+              timeAvailable: 'متاح من 9 صباحا الي 5 مساءا',
               doctorImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKERn-lpNg8Hxjf3ftsj_zpGwK8ruBp5y9g&usqp=CAU',
             ),
           ],

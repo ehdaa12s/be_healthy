@@ -236,6 +236,24 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "firebase_storage",
+      "rootUri": "file:///Users/ehdaaabdallah/.pub-cache/hosted/pub.dev/firebase_storage-11.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_storage_platform_interface",
+      "rootUri": "file:///Users/ehdaaabdallah/.pub-cache/hosted/pub.dev/firebase_storage_platform_interface-4.4.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_storage_web",
+      "rootUri": "file:///Users/ehdaaabdallah/.pub-cache/hosted/pub.dev/firebase_storage_web-3.6.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/ehdaaabdallah/Desktop/picasso/flutter/flutter%20sdk/packages/flutter",
       "packageUri": "lib/",
@@ -722,7 +740,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-09-13T20:42:16.992349Z",
+  "generated": "2023-09-14T12:28:43.153114Z",
   "generator": "pub",
   "generatorVersion": "3.0.1"
 }

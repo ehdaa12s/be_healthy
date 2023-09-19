@@ -56,14 +56,14 @@ dependencies:
   firebase_core: ^2.15.0
   firebase_auth: ^4.7.2
   cloud_firestore: ^4.8.5
-  image_picker: ^1.0.2
+  image_picker: ^1.0.4
   curved_navigation_bar: ^1.0.3
   provider: ^6.0.5
   flutter_lints: ^2.0.0
   path:
   sqflite:
   url_launcher:
-
+  firebase_storage: ^11.2.6
 
  
 

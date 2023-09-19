@@ -5,3 +5,4 @@ const kmessagesCollection = 'messages';
 const kmessagesText = 'text';
 const kcreatedAt = 'createdAt';
 const kemail = 'email';
+const kimage = 'image';

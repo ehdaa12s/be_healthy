@@ -5,6 +5,8 @@ MERGED from [:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_h
 MERGED from [:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:image_picker_android] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
@@ -27,6 +29,10 @@ MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/
 MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a5d279ad2f106477c4a05c234788515d/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/3249556a26853ada5eb4eaaad972c013/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/3249556a26853ada5eb4eaaad972c013/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a7e4be7e4fe779244a8d6c5c911b399b/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:23:5-20
@@ -75,6 +81,7 @@ INJECTED from /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/android/ap
 MERGED from /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/android/app/src/main/AndroidManifest.xml:1:1-40:12
 MERGED from [:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:image_picker_android] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -94,8 +101,11 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/ehdaaabdallah
 MERGED from [com.facebook.android:facebook-login:16.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/dfcd7566ee3b16bd18b5282ff150e101/transformed/jetified-facebook-login-16.0.1/AndroidManifest.xml:9:1-19:12
 MERGED from [com.facebook.android:facebook-common:16.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bf47a78431bc7260759acc1060becaaf/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:9:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/918cb06e51324739c81e14c01dcd5d76/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.0.0-beta01] /Users/ehdaaabdallah/.gradle/caches/transforms-3/5b52dca4075de1bfdb025977ed86aaeb/transformed/jetified-firebase-appcheck-safetynet-16.0.0-beta01/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a5d279ad2f106477c4a05c234788515d/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/3249556a26853ada5eb4eaaad972c013/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a7e4be7e4fe779244a8d6c5c911b399b/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/ea32337cc297f90d290d797ee1aaa7d0/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
@@ -185,6 +195,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/ehdaaabdallah
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/ehdaaabdallah/.gradle/caches/transforms-3/9c645efb41dcacbd160e32d5a3e1894c/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.QUERY_ALL_PACKAGES
@@ -199,6 +211,8 @@ MERGED from [:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_h
 MERGED from [:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:image_picker_android] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -237,10 +251,16 @@ MERGED from [com.facebook.android:facebook-common:16.0.1] /Users/ehdaaabdallah/.
 MERGED from [com.facebook.android:facebook-common:16.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bf47a78431bc7260759acc1060becaaf/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:13:5-15:41
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/918cb06e51324739c81e14c01dcd5d76/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/918cb06e51324739c81e14c01dcd5d76/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.0.0-beta01] /Users/ehdaaabdallah/.gradle/caches/transforms-3/5b52dca4075de1bfdb025977ed86aaeb/transformed/jetified-firebase-appcheck-safetynet-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-safetynet:16.0.0-beta01] /Users/ehdaaabdallah/.gradle/caches/transforms-3/5b52dca4075de1bfdb025977ed86aaeb/transformed/jetified-firebase-appcheck-safetynet-16.0.0-beta01/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a5d279ad2f106477c4a05c234788515d/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a5d279ad2f106477c4a05c234788515d/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/3249556a26853ada5eb4eaaad972c013/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/3249556a26853ada5eb4eaaad972c013/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a7e4be7e4fe779244a8d6c5c911b399b/transformed/jetified-firebase-appcheck-interop-17.0.1/AndroidManifest.xml:18:5-20:41
@@ -375,6 +395,8 @@ service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:cloud_firestore] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-appcheck-ktx:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/0fa0fa4213214854182b5da4c8b61385/transformed/jetified-firebase-appcheck-ktx-17.0.1/AndroidManifest.xml:23:9-29:19
@@ -387,6 +409,8 @@ MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/
 MERGED from [com.google.firebase:firebase-appcheck-playintegrity:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/a5d279ad2f106477c4a05c234788515d/transformed/jetified-firebase-appcheck-playintegrity-17.0.1/AndroidManifest.xml:24:9-30:19
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:24:9-30:19
 MERGED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:24:9-30:19
 MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/ehdaaabdallah/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
@@ -411,6 +435,12 @@ ADDED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_heal
 		ADDED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_auth] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] /Users/ehdaaabdallah/Desktop/picasso/flutter/be_healthy/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
@@ -459,6 +489,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/ehdaaabdallah
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/ehdaaabdallah/.gradle/caches/transforms-3/9c645efb41dcacbd160e32d5a3e1894c/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:25:5-79
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/b8d152da90f8ad50ccb85843bc53a8de/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/b8d152da90f8ad50ccb85843bc53a8de/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
 	android:name
@@ -579,6 +611,12 @@ ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/
 		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/ehdaaabdallah/.gradle/caches/transforms-3/bc3c035f684e0cf06e9f37f06e8c8840/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/87a15225ca2200652383524ee03b932c/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
 meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
 ADDED from [com.google.firebase:firebase-appcheck:17.0.1] /Users/ehdaaabdallah/.gradle/caches/transforms-3/713a4ea8637d0dadc1ec88c31b653601/transformed/jetified-firebase-appcheck-17.0.1/AndroidManifest.xml:27:13-29:85
 	android:value

@@ -48,8 +48,8 @@ class _SettingScreenState extends State<SettingScreen> {
                   },
                   items: _languages.map((e) {
                     return DropdownMenuItem(
-                      child: Text(e),
                       value: e,
+                      child: Text(e),
                     );
                   }).toList(),
                 ),
