@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         'Loginscreen': (context) => const LoginScreen(),
         'SignUp': (context) => const SignUp(),
         'BottomNavagetorBarScreen': (context) =>
-            const BottomNavagertorBarScreen(),
+         const BottomNavagertorBarScreen(),
         'ChatScreen': (context) => ChatScreen(),
       },
       theme: Provider.of<AppTheme>(context).getThemeData(),
